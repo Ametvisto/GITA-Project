@@ -1,0 +1,414 @@
+body {
+    color: #FFFFFF;
+    width: 1367px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.bg-image {
+    background-image: url("../images/Cover.jpg");
+    height: 324px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 90px;
+    width: 1367px;
+}
+.bg-image p {
+    position: absolute;
+    top: 146px;
+    left: 139px;
+    color: white;
+    width: 195px;
+    height: 39px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.image {
+    position: absolute;
+    margin-left: 139px;
+    margin-top: 16px;
+}
+
+
+.list {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 564px;
+    padding-top: 16px;
+    margin-left: 764px;
+
+}
+
+
+
+.container {
+    width: 1367px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    display: flex;
+    width: 444px;
+    height: 441px;
+    display: block;
+}
+.box2 {
+    display: flex;
+    width: 572px;
+    height: 441px;
+    display: block;
+
+}
+
+.h1 {
+    color: #5863F8;
+    font-size: 14px;
+    width: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.h3 {
+    width: 374px;
+    color: black;
+    font-size: 42px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.p1 {
+    width: 374px;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.p2 {
+    width: 374px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.readmore {
+    width: 184px;
+    background-color: #5863F8;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+}
+
+.bg-image1 {
+    background-image: url(../images/cover1.jpg);
+    height: 612px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 90px;
+    width: 1367px;
+}
+
+.aboutus {
+    color: #5863F8;
+    font-size: 14px;
+    width: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 92px;
+    left: 139px;
+}
+
+.h4 {
+    width: 374px;
+    color: white;
+    font-size: 42px;
+    margin-top: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 113px;
+    left: 139px;
+}
+
+.box-wrapper {
+    padding-top: 262px;
+   
+    display: flex;
+    width: 1367px;
+    justify-content: space-around;
+    align-items: center;
+}
+.wraper1,
+.wraper2,
+.wraper3,
+.wraper4 {
+    width: 260px;
+    height: 260px;
+    background-color: #FFFFFF;
+    display: flex;
+    display: block;
+    color: black;
+   
+}
+.home {
+    margin-left: 100px;
+}
+
+.wraper-header {
+    width: 166px;
+    height: 69px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.wraper-text {
+    color: #B1B1B1;
+    width: 221px;
+    height: 62px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.container1 {
+    width: 1367px;
+    padding-right: 97px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    margin-bottom: 90px;
+    height: 488px;
+   
+}
+
+.box3 { 
+    padding-top: 97px;
+    width: 444px;
+    height: 441px;
+    
+}
+.box4 {
+    width: 583px;
+    height: 441px;
+
+}
+
+.headername {
+        width: 374px;
+        color: black;
+        font-size: 42px;
+        margin-top: 10px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-family: 'Poppins';
+    }
+.name {
+    font-size: 18px;
+    width: 149px;
+    margin-top: 20px;
+    color: black;
+}
+.picname {
+    color: black;
+    display: flex;
+    width: 236px;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-text {
+    margin-top: 20px;
+    width: 300px;
+    font-size: 14px;
+    color: black;
+}
+.satauri {
+    width: 1367px;
+}
+.header3 {
+    color: #5863F8;
+    font-size: 14px;
+    width: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 75px;
+}
+.header4 {
+    margin-left: 75px;
+    width: 374px;
+    color: black;
+    font-size: 42px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 565px;
+    font-weight: bold;
+}
+.pictures {
+    width: 1367px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fot {
+  width: 352px;
+  height: 352px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1367px;
+    background-color: black;
+    height: 395px;
+    position: relative;
+    padding-top: 90px;
+    padding-left: 139px;
+    z-index: 1;
+
+}
+.block1,
+.block2,
+.block3,
+.block4 {
+    width: 260px;
+    margin-bottom: 20px;
+    height: 145px;
+}
+
+
+.h1-footer {
+    margin-bottom: 20px;
+    width: 148px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.text-footer {
+    width: 260px;
+    height: 83px;
+    color: #B1B1B1;
+    font-size: 14px;
+}
+.blue {
+    margin-bottom: 10px;
+    color: #5863F8;
+}
+
+.end {
+    position: absolute;
+    color: white;
+    z-index: 6;
+}
+
+.test {
+    font-family: 'Poppins';
+}
+
+/* twitter logo */
+
+.twitter {
+    position: relative;
+    z-index: 4;
+
+}
+
+.twitter-logo {
+    position: absolute;
+   
+}
+@media only screen and (max-width: 1024) {
+    box-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    background-color: lightblue;
+    width: auto;
+    flex-direction: column;
+  }
+}
+
+.container {
+    width: 1088px;
+    margin: 0 auto;
+    padding-bottom: 87px;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.number {
+    font-size: 16px;
+    color: #999999;
+}
+.contact-title {
+font-size: 30px;
+color:  #3D58A6;
+text-align: center;
+
+
+}
+.a-contact {
+    font-weight: 16px;
+    color: blue;
+    text-decoration: none;
+}
+.ul {
+margin-top: 20px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.jigaro {
+    font-size: 25px;
+    color:  white;
+    text-decoration: none; 
+}
+.map {
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.restaurant {
+    font-size: 35px;
+    color:  blue;
+    text-decoration: none;
+    text-align: center;
+}
+.Hall-wraper {
+    padding-top: 50px;
+    display: flex;
+    width: 1067px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.hotel1 {
+ margin-left: 100px;
+}
+
+.hotel1,
+.hotel2 {
+    width: 260px;
+    height: 260px;
+    background-color: #FFFFFF;
+    display: flex;
+    display: block;
+    color: black;
+   
+}
+.hotel-title {
+font-size: 30px;
+color:  #3D58A6;
+text-align: center;
+}
