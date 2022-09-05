@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="Css/reset.css">
     <link rel="stylesheet" href="Hotel.html">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="bg-image">
-        <p class="test">Restaurant</p>
+        <p class="test">Hotel</p>
        <nav class="navigation">
            <a class="image" href="#"><img src="images/logo.svg" alt="logo">
            </a>
@@ -25,13 +26,31 @@
         </ul>
        </nav>
     </div>
-    
+
+    <script class="script">
+        $(document).ready(function(){
+          $("button").click(function(){
+            var txt = "";
+            txt += "Price of Ambasador: " + 134 + "</br>";
+            txt += "Price of Fabrika: " + 54;
+            $("#Prices").html(txt);
+          });
+        });
+        </script>        
+        <div id="Prices"></div>
+        <br>        
+        <button class="button2">Show the current prices in EUR</button>        
+                
     <h3 class="restaurant">Hotels</h3>
-    <h2 class="restaurant1">Explore our menu and eat what you wanted</h2>
-    
+        
     <div class="Hall-wraper">
         <div class="hotel1">
             <h3 class="hotel-title">Hotel Ambasador</h3>
+            <p class="hotel3">Stunning design, immersive activities and fresh local cuisine invites 
+                curious travelers to experience Hotel Ambasador like never before. 
+                Among its features are spacious and luxuriously appointed 243 rooms 
+                and suites, state-of-the-art meeting facilities, 
+                world-class restaurants and lounge bar, authentic spa experience.</p>
             <ul class="uli">
                 <li>
                    <span class="Address"></span> 
@@ -56,6 +75,11 @@
         </div>
         <div class="hotel2">
             <h3 class="hotel-title">Hotel Fabrika</h3>
+            <p class="hotel3">Located in the old historical district of Tbilisi, 
+                Fabrika is close to some of the coolest attractions and 
+                hidden gems around the neighborhoodFABRIKA HOSTEL IN TBILISI, 
+                WHERE YOU SLEEP, EAT, DRINK, DESIGN, CREATE, INTERACT, DISCOVER AND LEARN.
+            </p>
             <ul class="uli">
                 <li>
                    <span class="Address"></span> 

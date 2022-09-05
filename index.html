@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>display flex</title>
+    <title>GITA Project</title>
     <link rel="stylesheet" href="Css/reset.css">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="/fonts/stylesheet.css">
     <link rel="stylesheet" href="contact.html">
     <link rel="stylesheet" href="Hotel.html">
     <link rel="stylesheet" href="index.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
 <script>
 $(document).ready(function(){
   $("button").hover(function(){
@@ -22,6 +23,15 @@ $(document).ready(function(){
     $(this).css("background-color", "blue");
   });
 });
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+
 </script>
 
     <div class="bg-image">
@@ -59,9 +69,17 @@ $(document).ready(function(){
                         a place where people pay to sit and eat meals that are cooked and served on the premises. 
                         a place where people pay to sit and eat meals that are cooked and served on the premises.
                         a place where people pay to sit and eat meals that are cooked and served on the premises.
+                        a place where people pay to sit and eat meals that are cooked and served on the premises. 
+                        a place where people pay to sit and eat meals that are cooked and served on the premises.
+                        a place where people pay to sit and eat meals that are cooked and served on the premises.
+                        a place where people pay to sit and eat meals that are cooked and served on the premises. 
+                        a place where people pay to sit and eat meals that are cooked and served on the premises.
+                        a place where people pay to sit and eat meals that are cooked and served on the premises.
+                        a place where people pay to sit and eat meals that are coed and served on the premises.
+                        a place where people pay to sit and eat me are cooked and served on the premises.
                     </p>
-                    
-                    <button class="readmore">Read More</button>
+                    <button id="hide">Hide</button>
+                    <button id="show">Show</button> 
             </div>
 
 
@@ -200,7 +218,7 @@ $(document).ready(function(){
                 <div>
                     <img src="images/map-pin.svg" alt="map">
                 </div>
-                <h5>Main Str Chicago Ilinois</h5>
+                <h5>Kipshidze 42, Tbilisi, Georgia</h5>
                 
                 
                 
